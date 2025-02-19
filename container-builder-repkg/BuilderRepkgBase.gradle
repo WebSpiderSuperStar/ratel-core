@@ -43,8 +43,8 @@ dependencies {
     compile project(':base-lib-apksigner')
     compile project(':base-lib-apk-parser')
     compile project(':base-lib-pxb-axml')
-    compile(name: 'base-lib-allcommon', ext: 'jar')
-    compile 'com.google.guava:guava:18.0'
+    implementation(name: 'base-lib-allcommon', ext: 'jar')
+    implementation 'com.google.guava:guava:18.0'
 }
 
 sourceCompatibility = 1.8
